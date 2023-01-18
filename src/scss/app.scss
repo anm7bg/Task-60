@@ -32,7 +32,8 @@ html {
 
 @media screen and (max-width: 600px) {
   .navbar-menu {
-    visibility: hidden;
+    visibility: hidden !important;
+    display: none;
   }
   .navbar-burger {
     visibility: visible;
